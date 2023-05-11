@@ -304,6 +304,23 @@
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
+              <style>
+                .select-box {
+                  border: 2px solid black;
+                  border-radius: 5px;
+                  padding: 10px;
+                  margin: 10px;
+                  background-color: gold;
+                }
+                .select-box select {
+                  border: none;
+                  background: none;
+                  outline: none;
+                  color: black;
+                  font-size: 18px;
+                }
+              </style>
+              
               <select class="form-control" name="name" id="name" data-rule="minlen:1" data-msg="Alege clasa">
                 <option value="">Please select your name</option>
                 <option value="Aqua">Aqua</option>
@@ -314,12 +331,6 @@
                 <option value="Extreme High Hill Endurance">Extreme High Hill Endurance</option>
                 <option value="High Hill Endurance">High Hill</option>
               </select>
-              .my-select {
-                border: 2px solid black;
-                color: goldenrod;
-                margin: 10px;
-                padding: 10px;
-              }
               <div class="validate"></div>
             </div>
           </div>
